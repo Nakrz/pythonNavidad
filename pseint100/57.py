@@ -1,0 +1,8 @@
+print ("INGRESE CANTIDAD DE DIAS")
+dias = int(input())
+A = int(dias / 365)
+M = int((dias - (A * 365))/30)
+D = int(dias - ((A * 365) + (M * 30)))
+print ("Año : ",A)
+print ("Mes : ",M)
+print ("Dia : ",D)
